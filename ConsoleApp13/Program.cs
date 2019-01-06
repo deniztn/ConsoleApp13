@@ -19,7 +19,7 @@ namespace ConsoleApp13
             int p1 = Convert.ToInt16(Console.ReadLine());
             Console.Write("2.  performans notunuzu giriniz:");
             int p2 = Convert.ToInt16(Console.ReadLine());
-            int ort = (not1 + not2 + p1 + p2) / 4;
+            float ort = (not1 + not2 + p1 + p2) / 4;
             if (ort < 50)                                            //eğer ortalama 50 den küçükse
             {
                 Console.WriteLine("KALDINIZ");                       //bunları yazdır
